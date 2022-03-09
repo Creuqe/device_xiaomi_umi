@@ -252,6 +252,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
     usb \
     wlan
 
+# Recovery
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.flash.recovery=1
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
