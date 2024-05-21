@@ -245,6 +245,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     display \
     nfc \
+    media \
     overlay \
     perf \
     telephony \
